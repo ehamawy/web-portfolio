@@ -1,1 +1,37 @@
-/* todo later dawg */
+@font-face {
+    font-family: ComicSansMS;
+    src: url(COMIC.TTF);
+}
+@font-face {
+    font-family: ComicSansMSBold;
+    src: url(COMICBD.TTF);
+    font-weight: bold;
+}
+body {
+    background-color: rebeccapurple;
+}
+p {
+    font-family: ComicSansMS;
+    color: #ffffff;
+    width: 800px;
+    margin: auto;
+}
+h1 {
+    font-family: ComicSansMSBold;
+    color: #ffffff;
+}
+h2 {
+    font-family: ComicSansMS;
+    color: #ffffff;
+}
+h3 {
+    font-family: ComicSansMS;
+    color: #ffffff;
+}
+h4 {
+    font-family: ComicSansMS;
+    color: #ffffff;
+}
+a {
+    color: rgb(213, 172, 255);
+}
