@@ -16,7 +16,8 @@ section {
     margin: auto;
     width: 64em;
     color: #A5D6A7;
-    padding: 1em;
+    margin-bottom: 0.5em;
+    padding-bottom: 1em;
 }   
 
 p {
@@ -56,6 +57,14 @@ section a:hover {
     transition: 0.3s;
     padding-left: 1em;
     padding-right: 1em;
+}
+section > h3 {
+    margin: -1em;
+    padding-top: -0.5em;
+}
+section > h3 {
+    margin: 1em;
+    padding-top: 0.5em;
 }
 
 img {
