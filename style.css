@@ -8,21 +8,31 @@
     font-weight: bold;
 }
 body {
-    background-color: rebeccapurple;
+    background-color: #66BB6A;
 }
+section {
+    background-color: #1B5E20;
+    display: block;
+    margin: auto;
+    width: 64em;
+    color: #A5D6A7;
+    padding: 1em;
+}   
+
 p {
     font-family: ComicSansMS;
-    color: #ffffff;
     width: 800px;
     margin: auto;
 }
 h1 {
     font-family: ComicSansMSBold;
     color: #ffffff;
+    margin-left: 0.5em;
 }
 h2 {
     font-family: ComicSansMS;
     color: #ffffff;
+    margin-left: 0.6em;
 }
 h3 {
     font-family: ComicSansMS;
@@ -32,6 +42,61 @@ h4 {
     font-family: ComicSansMS;
     color: #ffffff;
 }
-a {
-    color: rgb(213, 172, 255);
+section a {
+    font-style:oblique;
+    color: #1B5E20;
+    background-color: #66BB6A;
+    transition: 0.3s;
+}
+section a:hover {
+    font-style: normal;
+    text-decoration: none;
+    color: #1B5E20;
+    background-color: #E8F5E9;
+    transition: 0.3s;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 1em;
+}
+
+
+nav > ul {
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+}
+li > a {
+    display: inline-block;
+    background-color: #1B5E20;
+    color: #ffffff;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    transition: 0.3s;
+}
+
+li > a:hover {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    color: #1B5E20;
+    background-color: #E8F5E9;
+    transition: 0.3s;
+}
+
+nav li:nth-child(2n) > a {
+    background-color: #247d2a;
+}
+
+nav li:nth-child(2n) > a:hover {
+    color: #1B5E20;
+    background-color: #E8F5E9;
 }
