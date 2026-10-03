@@ -8,7 +8,8 @@ This project is an ongoing demo site for my CS176 class.
 
 ## Pages:
 
-- biography `./index.html`
+- Biography `./index.html`
+- Experience `./experience.html`
 
 ## License
 
