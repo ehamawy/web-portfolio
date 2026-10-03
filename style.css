@@ -19,7 +19,9 @@ section {
     margin-bottom: 0.5em;
     padding-bottom: 1em;
 }   
-
+li a {
+    font-family: ComicSansMS;
+}
 p {
     font-family: ComicSansMS;
     width: 800px;
@@ -108,4 +110,32 @@ nav li:nth-child(2n) > a {
 nav li:nth-child(2n) > a:hover {
     color: #1B5E20;
     background-color: #E8F5E9;
+}
+@keyframes rainbow {
+    0% {
+        border-color: red;
+    }
+    16% {
+        border-color: orange;
+    }
+    32% {
+        border-color: yellow;
+    }
+    48% {
+        border-color: green;
+    }
+    64% {
+        border-color: blue;
+    }
+    80% {
+        border-color: indigo;
+    }
+    100% {
+        border-color: violet;
+    }
+}
+
+img:hover {
+    border-style:double;
+    animation: rainbow 0.7s infinite;
 }
