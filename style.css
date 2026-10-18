@@ -143,3 +143,22 @@ img:hover {
     border-style:double;
     animation: rainbow 0.7s infinite;
 }
+/* Can have different style when printed!!!1*/
+@media print {
+    section {
+        background-color: #FFFFFF;
+        color: #000000;
+    }
+    nav {
+        display: none;
+    }
+    section a {
+        color: black /* links were still colored when printed, fixed*/
+    }
+    h1 {
+        margin-left: 0%;
+    }
+    h2 {
+        margin-left: 0%;
+    }
+}
