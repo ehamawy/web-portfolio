@@ -11,14 +11,16 @@ body {
     background-color: #66BB6A;
 }
 section {
+    box-sizing: border-box; /* fixes horizontal scroll coming back again :P */
     background-color: #1B5E20;
     display: block;
     margin: auto;
     max-width: 64em;
     width: 100%;
     color: #A5D6A7;
-    margin-bottom: 0.5em;
-    padding-bottom: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    padding: 0.5em;
 }   
 li a {
     font-family: ComicSansMS;
@@ -31,12 +33,10 @@ p {
 h1 {
     font-family: ComicSansMSBold;
     color: #ffffff;
-    margin-left: 0.5em;
 }
 h2 {
     font-family: ComicSansMS;
     color: #ffffff;
-    margin-left: 0.6em;
 }
 h3 {
     font-family: ComicSansMS;
@@ -154,11 +154,5 @@ img:hover {
     }
     section a {
         color: black /* links were still colored when printed, fixed*/
-    }
-    h1 {
-        margin-left: 0%;
-    }
-    h2 {
-        margin-left: 0%;
     }
 }
